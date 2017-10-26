@@ -1,5 +1,8 @@
 
-# Content
+---
+layout: page
+
+---
 
 git clone https://github.com/rfd3344/rfd3344.github.io
 git add .
