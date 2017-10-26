@@ -1,34 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} </title>
     {% include meta.html %}
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
   <body>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
+          <a href="{{ site.baseurl }}/" class="site-avatar">
+            <img src="https://avatars1.githubusercontent.com/u/18899535?s=460&v=4" />
+          </a>
           <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
- 
+            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/pages/blog">Blog</a>
             <a href="{{ site.baseurl }}/notes/CSS">CSS</a>
             <a href="{{ site.baseurl }}/notes/Javascript">Javascript</a>
             <a href="{{ site.baseurl }}/notes/Node PHP">Node PHP</a>
@@ -47,7 +35,9 @@
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-           Here is the footer 
+          <a href="https://drive.google.com/drive/folders/0B4hURf1yuAzuWUM4bk5oZ0Z3YXc?usp=sharing"> Google Temporary Folder </a>
+          <a href="https://github.com/rfd3344/rfd3344.github.io">  Edit Github Contents </a>
+           
         </footer>
       </div>
     </div>
