@@ -1,0 +1,179 @@
+
+/******  Show h1,h2,h3  ******/
+
+body *{
+//  display: none;
+}
+
+h1,h2,h3{
+  display: block;
+}
+
+body {
+  font-family: monospace;
+  background-color: white;
+  padding: 10px 30px; 
+}
+
+br{
+  display: none;
+}
+  /*
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  */
+
+
+/*********  Font Size ***********/
+h1 {
+  font-family: fantasy;
+  font-size: 30px;
+  color: #b58900;
+  text-align: center;
+  margin: 10px 0;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 26px;
+  color: rgb(0,0,138);
+  border-bottom: 1px solid #cccccc;
+  margin: 10px 0;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 20px; 
+  color: rgb(70,122,36);
+  font-style: italic;
+  margin: 10px 0;
+}
+
+h4{
+  color: #EB2F2A;
+  font-size: 16px;
+  margin: 10px 0; 
+}
+
+h5, h6, p,table {
+  margin: 0;
+  padding:0;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(109,4,77);
+  font-weight: normal;
+  white-space: pre-wrap;
+}
+
+a{
+  color: rgb(109,4,77);
+}
+a:hover{
+  color:orange;
+}
+
+/*** inline code ****/
+
+pre code{
+  display: block;
+  font-size: 16px;
+  color:rgb(39,96,168);
+  white-space: pre;
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  padding: 10px 5px;
+  border-radius: 3px;
+  overflow: auto;
+}
+
+
+/********** List 1*************
+ > 111
+ > 222 
+*******************************/ 
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777;
+  margin-left:10px;
+  line-height: 0; 
+}
+blockquote br{
+  display: none;
+}
+
+body > ol, body > ul{
+  padding-left: 0px;
+}
+ol, ul {
+  padding-left: 20px;
+  line-height: 20px;
+  list-style-position: inside;
+  font-size: 16px;
+  color: rgb(109,4,77);
+  font-weight: normal;
+}
+
+img {
+  max-width: 100%; 
+  max-height: 600px; 
+  border: 3px solid #e0dfcc;
+  border-radius: 15px;
+  margin: auto;
+  display: block;
+}
+
+
+/************* Table style ************/
+table {
+  padding: 0;border-collapse: collapse; 
+}
+table tr {
+  border-top: 1px solid #cccccc;
+  background-color: white;
+  margin: 0;
+  padding: 0; 
+}
+table tr:nth-child(2n) {
+  background-color: #f8f8f8; 
+}
+table tr th {
+  font-weight: bold;
+  border: 1px solid #cccccc;
+  margin: 0;
+  padding: 6px 13px; 
+}
+table tr td {
+  border: 1px solid #cccccc;
+  margin: 0;
+  padding: 6px 13px; 
+}
+table tr th :first-child, table tr td :first-child {
+  margin-top: 0; 
+}
+table tr th :last-child, table tr td :last-child {
+  margin-bottom: 0; 
+}
+
+/*********** Others **************/
+
+
+
+
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
