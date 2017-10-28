@@ -1,6 +1,4 @@
----
-layout: notes
----
+
 
 # CSS Base
 ```
