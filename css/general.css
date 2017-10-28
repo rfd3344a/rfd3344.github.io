@@ -1,4 +1,9 @@
 
+body{
+   max-width:900px;
+}
+
+/******  Header *********/
 .masthead a img{
    display: inline-block;
    width: 60px;
