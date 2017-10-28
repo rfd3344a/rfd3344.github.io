@@ -1,6 +1,7 @@
 ---
 layout:notes
 ---
+
 # CSS Base
 ```
 <link rel="stylesheet" type="test/css" href="./templates/CSS.css">
