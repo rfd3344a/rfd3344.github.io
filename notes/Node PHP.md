@@ -1,3 +1,7 @@
+---
+layout: notes
+---
+
 # Node.js
 回调函数     异步传输
 
