@@ -1,3 +1,7 @@
+---
+layout: notes
+---
+
 
 # Object 对象
 ## 修饰符
