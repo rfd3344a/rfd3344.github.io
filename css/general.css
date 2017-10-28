@@ -16,3 +16,7 @@ body{
    line-height: 60px;
    font-size: 20px;
 }
+.masthead nav a{
+   padding:10px;
+   margin:10px
+}
