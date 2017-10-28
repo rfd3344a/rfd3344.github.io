@@ -1,8 +1,7 @@
 
 ---
 layout: notes
-title: About
-permalink: /about/
+
 ---
 
 # JavaScript
