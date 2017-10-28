@@ -1,4 +1,10 @@
 
+/*********  
+	light yellow: #ffd645
+	dark yellow: #fcc43a
+*********/
+
+
 body{
    max-width: 900px;
    margin: auto;
@@ -21,4 +27,8 @@ body{
    margin:10px;
    text-decoration: none;
    font: 400 25px/55px Sniglet,"Open Sans",sans-serif;
+   background:#ffd645;
+}
+.masthead nav a:hover{
+   background:#fcc43a;
 }
