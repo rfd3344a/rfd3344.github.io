@@ -1,3 +1,7 @@
+---
+layout: notes
+---
+
 <img src= "./zPhoto/Frontend Diagram.png" />
 
 #React
