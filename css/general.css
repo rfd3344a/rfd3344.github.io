@@ -28,6 +28,7 @@ body{
     background: #ffd645;
     padding: 8px 14px;
     border-radius: 4px;
+    color: black;
 }
 .masthead nav a:hover{
    position:relative;
