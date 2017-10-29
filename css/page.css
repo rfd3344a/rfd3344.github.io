@@ -1,4 +1,9 @@
-*{
-
-  background:red;
+ a{
+    text-decoration: none;
+    font-family: 'Sniglet', cursive;
+    background: #ffd645;
+    padding: 8px 14px;
+    border-radius: 4px;
 }
+a:hover{
+   background:#fcc43a;
