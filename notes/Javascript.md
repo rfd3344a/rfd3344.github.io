@@ -205,8 +205,9 @@ Array.from({ length: 2 }, () => ‘jack’)
 ### Array.of() 
 创建一个有可变数量的参数的新的数组实例，无论参数有多少数量，而且可以是任意类型。
 number转化为array
-    
-    Array.of(3, 11, 8) // [3,11,8]
+```
+Array.of(3, 11, 8) // [3,11,8]
+```
 ## Array Methods Mutator 
 会改变自身的值
 ### .copyWithin()
