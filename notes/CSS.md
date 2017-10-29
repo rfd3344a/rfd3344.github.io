@@ -62,7 +62,9 @@ p: after {
 ## Box
 margin | border | padding | content 
 ### border
-    border: 2px solid black;
+```
+border: 2px solid black;
+```
 border-radius: 10px;
 border-width: 5px;
 border-style: dotted / dashed / solid /double / groove / ridge / inset
