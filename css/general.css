@@ -30,5 +30,8 @@ body{
     border-radius: 4px;
 }
 .masthead nav a:hover{
+   position:relative;
+   top:-5px;
+   transition:all 0.8s ease;
    background:#fcc43a;
 }
