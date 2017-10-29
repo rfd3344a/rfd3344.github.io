@@ -12,26 +12,27 @@
 
 /******  Home Page *********/
 #MyFiles{
-	background: linear-gradient(70deg, #e5edf9 50%, #385d97 50%);
-	height:400px;
+   background: linear-gradient(70deg, #e5edf9 50%, #385d97 50%);
+   height:400px;
 }
-#MyFiles a{
-	display: block;
+#MyFiles div{
+   display: block;
    width: 50%;
    float: left;
    height: 100%;
    text-align: center;
+   
 }
-#MyFiles a:before{
-    font-family: fontawesome;
+#MyFiles div:before{
+   font-family: fontawesome;
    display: block;
    font-size: 100px;
 }
-#MyFiles a:nth-of-type(1):before{
-	 content: '\f092';
+#MyFiles div:nth-of-type(1):before{
+    content:'\f092';
     color: #385d97;
 }
-#MyFiles a:nth-of-type(2):before{
-	 content: '\f2b3';
-    color: e5edf9
+#MyFiles div:nth-of-type(2):before{
+    content: '\f2b3';
+    color: #e5edf9;
 }
