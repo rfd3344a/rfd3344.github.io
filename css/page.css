@@ -1,13 +1,11 @@
 #main a{
     text-decoration: none;
     font-family: 'Sniglet', cursive;
-    background: #ca1f26;
+    background: #ffd645;
     padding: 8px 14px;
     border-radius: 4px;
 }
 #main a:hover{
-   position:relative;
-   top:-5px;
-   transition:all 0.8x ease;
+   transition:all 0.8s ease;
    background:#fcc43a;
 }
