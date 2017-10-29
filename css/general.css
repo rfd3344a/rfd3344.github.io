@@ -24,7 +24,7 @@ body{
 }
 .masthead nav a{
     text-decoration: none;
-    font: 400 25px/55px Sniglet,"Open Sans",sans-serif;
+    font-family: 'Sniglet', cursive;
     background: #ffd645;
     padding: 8px 14px;
     border-radius: 4px;
