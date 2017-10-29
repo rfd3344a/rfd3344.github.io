@@ -2,7 +2,7 @@
 layout: notes
 ---
 
-<img src= "./zPhoto/FrontendDiagram.png" />
+<img src= "./zPhoto/Frontend_Diagram.png" />
 
 #React
 ```
