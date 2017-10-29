@@ -14,7 +14,8 @@ body{
 .masthead a img{
    display: inline-block;
    width: 60px;
-   margin: unset;
+   border: 3px solid #e0dfcc;
+   border-radius: 15px;
 }
 .masthead nav{
    float: right;
