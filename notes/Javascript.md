@@ -4,7 +4,9 @@ layout: notes
 ---
 
 # JavaScript
-    <script type="text/javascript" src="./templates/jquery-1.12.4.js"></script>
+```
+   <script type="text/javascript" src="./templates/jquery-1.12.4.js"></script>
+```
 ## Basic Knowledge 
 ### Logic
 break               //跳出循环
