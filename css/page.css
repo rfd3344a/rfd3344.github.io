@@ -1,9 +1,13 @@
  a{
     text-decoration: none;
     font-family: 'Sniglet', cursive;
-    background: #ffd645;
+    background: #ca1f26;
     padding: 8px 14px;
     border-radius: 4px;
 }
 a:hover{
+   position:relative;
+   top:-5px;
+   transition:all 0.8x ease;
    background:#fcc43a;
+}
