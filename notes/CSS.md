@@ -66,8 +66,9 @@ margin | border | padding | content
 border-radius: 10px;
 border-width: 5px;
 border-style: dotted / dashed / solid /double / groove / ridge / inset
-
-    border-style:dotted double solid double;
+```
+border-style:dotted double solid double;
+```
 border-color: red;
 ### Heigh/width
 height:
