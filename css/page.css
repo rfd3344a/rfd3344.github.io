@@ -30,10 +30,10 @@
    font-size: 100px;
 }
 #MyFiles div:nth-of-type(1):before{
-    content:'\f092';
+    content:'\f2b3';
     color: #385d97;
 }
 #MyFiles div:nth-of-type(2):before{
-    content: '\f2b3';
+    content: '\f092';
     color: #e5edf9;
 }
