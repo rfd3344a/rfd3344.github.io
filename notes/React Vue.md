@@ -2,7 +2,7 @@
 layout: notes
 ---
 
-<img src= "./zPhoto/Frontend_Diagram.png" />
+<img src= "../zPhoto/Frontend_Diagram.png" />
 
 #React
 ```
@@ -180,7 +180,7 @@ handleSubmit(event) {
 判断组件挂载状态: isMounted
 
 ## 生命周期 Mount
-<img src="zPhoto/React-LifeCycle.png"/>
+<img src="../zPhoto/React-LifeCycle.png"/>
 componentWillMount()	render前调用, once only
 componentDidMount()		render后调用, once only
 componentWillUnmount()	移除时调用
@@ -193,8 +193,8 @@ componentDidUpdate(object prevProps, object prevState)
 DOM更新后调用
 
 # Redux-React
-<img src="zPhoto/Flux Flow.png">
-<img src="zPhoto/Redux Flow.png"> 
+<img src="../zPhoto/Flux Flow.png">
+<img src="../zPhoto/Redux Flow.png"> 
 Action: Topic
 Reducer: 修改 State
 Presenter Component:  静态组件
