@@ -5,7 +5,7 @@ layout: notes
 
 # JavaScript
 ```
-   <script type="text/javascript" src="./templates/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="./templates/jquery-1.12.4.js"></script>
 ```
 ## Basic Knowledge 
 ### Logic
@@ -160,11 +160,7 @@ alert(str.trim());
 // Hello World!
 ```
 ### valueOf()	
-    
-    
-    
-    
-    
+
 ## Array Properties and Methods
 Fruits = ["Apple", "Banana", "Cherry", "Data枣", "Elderberry", "Fig无花果", "Grape", "Homeydew", "Iceberg", "Jackfruit", "Kiwi", "Lemon", "Mango", "Nectarine油桃", "Orange", "Pear", "Quince柑橘", "Raspberry", "Strawberry", "Tomato", "Ugli Fruit", "Victoria plum", "Watermelon", "X", "Yam山药", "Zucchini"];
 ### .length 
@@ -600,7 +596,7 @@ Foo.classMethod() // 'hello'
 ```
 ## Control abstraction Objects
 ### Promise
-<img src="./zPhoto/Promise.png" />
+<img src="../zPhoto/Promise.png" />
 .then(onFulfilled [, onRejected] );
     onFulfilled: 完成function 
     onRejected: 拒绝function
