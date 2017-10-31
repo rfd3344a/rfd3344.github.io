@@ -12,8 +12,9 @@ layout: default
       <div class="entry">
         {{ post.excerpt }}
       </div>
-
-     
+      {% for post in site %}
+       post
+     {% endfor %}
     </article>
   {% endfor %}
 </div>
