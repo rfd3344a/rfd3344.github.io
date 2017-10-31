@@ -193,8 +193,8 @@ componentDidUpdate(object prevProps, object prevState)
 DOM更新后调用
 
 # Redux-React
-<img src="../zPhoto/Flux Flow.png">
-<img src="../zPhoto/Redux Flow.png"> 
+<img src="../zPhoto/Flux_Flow.png">
+<img src="../zPhoto/Redux_Flow.png"> 
 Action: Topic
 Reducer: 修改 State
 Presenter Component:  静态组件
