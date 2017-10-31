@@ -32,7 +32,7 @@ extends
 
 
 # MVC模式 – Model, View, Controller
-<img src="zPhoto/MVC_mode.png" height="300px" />
+<img src="../zPhoto/MVC_mode.png" height="300px" />
 三者相互独立
 Model
 Ex：改变Model（数据库从MySQL移植到Oracle）
