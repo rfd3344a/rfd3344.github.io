@@ -2,13 +2,20 @@
 /*******  Navigation Bar *********/
 
 .notes nav{
-	position: absolute;
-	display: block;
-	margin-top: 10px;
-	margin-left: 10px;
+   position: absolute;
+   display: block;	
+   margin-top: 10px;
+   margin-left: 10px;
+   width:200px;
+}
+.notes nav h1{
+    text-align: left;
+    font-size: 25px;
 }
 .notes nav h2{
-	margin-left: 20px;
+   margin-left: 20px;
+    font-size: 20px;
+    border: 0;
 }
 .notes nav:before{
 	width: 0;
@@ -18,7 +25,7 @@
     border-width: 20px;
     content: "";
     border-right-color: orange;
-	position: fixed;
+    position: fixed;
 	top: 50%;
 	left: 220px;
 }
