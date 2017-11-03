@@ -21,7 +21,7 @@ layout: default
 <script>
 $(document).ready(function(){
 	// click go to target title 
-	console.log( $(".notes .content  h1, .notes .content h2 ") );
+	console.log( $(".notes") );
     $(".notes .content  h1, .notes .content h2 ").clone().appendTo( ".notes nav" );
     $(".notes .content h1 ").click(function() {
     	let Nav_Title = $(this).text();
