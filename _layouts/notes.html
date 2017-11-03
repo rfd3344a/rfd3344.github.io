@@ -3,6 +3,74 @@ layout: default
 ---
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/notes.css" />
 
-<section class="notes">
-    {{ content }}
-</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	// click go to target title 
+    $(".notes .content  h1, .notes .content h2 ").clone(true,true).appendTo( ".notes nav" );
+    $(".notes .content h1 ").click(function() {
+    	let Nav_Title = $(this).text();
+    	let SelectedTag =$(".notes .content h1:contains("+Nav_Title+")");
+    	$('html, body').animate({
+    		scrollTop: ( SelectedTag.offset().top)
+		},500);
+    })
+    // left navigation continues shown 
+  	$(document).on( 'scroll', function(){
+    	console.log( $(window).height() ) ;
+    	console.log( document.body.clientHeight);
+    	if( self.pageYOffset+document.body.clientHeight  > $('.notes nav').height()  ){
+    		$('.notes nav').css({'position':'fixed', 'bottom':'0'});
+    	}else{
+    		$('.notes nav').css({'position':'absolute', 'bottom':'unset'});
+    	}
+	});
+});
+</script>
+
+<style type="text/css">
+.notes nav{
+	position: absolute;
+	display: block;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.notes nav h2{
+	margin-left: 20px;
+}
+.notes nav:before{
+	width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 20px;
+    content: "";
+    border-right-color: orange;
+	position: fixed;
+	top: 50%;
+	left: 220px;
+}
+.notes .content{
+	width: 80%;
+	margin-left: 250px;
+	background:BlanchedAlmond;
+	border-left: 5px solid yellowgreen;
+	padding-left: 10px;
+}
+.notes .content,
+.notes nav{
+	counter-reset: H_One;
+}
+.notes h1{
+	counter-reset: H_Two;
+}
+.notes  h1:before {
+  	counter-increment: H_One;
+  	content: counter(H_One) ' ';
+}
+.notes h2:before {
+	counter-increment: H_Two;
+  	content:counter(H_One) '.' counter(H_Two) ' ';
+}
+</style>
+
