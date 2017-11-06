@@ -19,7 +19,7 @@
     font-size: 20px;
     border: 0;
 }
-.notes div{
+.notes nav div{
     width: 0;
     height: 0;
     border-style: solid;
@@ -27,8 +27,8 @@
     border-width: 20px;
     border-right-color: orange;
     position: fixed;
-	top: 50%;
-	left: 220px;
+    top: 50%;
+    left: 260px;
 }
 .notes .content{
 	width: 80%;
