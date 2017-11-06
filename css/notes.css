@@ -5,6 +5,7 @@ body{
 }
 .notes{
    max-width:unset;
+   padding-bottom:30px;
 }
 .notes nav{
    position: absolute;
