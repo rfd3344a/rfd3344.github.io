@@ -20,26 +20,21 @@ layout: default
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-	// click go to target title 
-	console.log( $(".notes") );
-    $(".notes .content  h1, .notes .content h2 ").clone().appendTo( ".notes nav" );
-    $(".notes .content h1 ").click(function() {
-    	let Nav_Title = $(this).text();
-    	let SelectedTag =$(".notes .content h1:contains("+Nav_Title+")");
-    	$('html, body').animate({
-    		scrollTop: ( SelectedTag.offset().top)
-		},500);
+    $(".notes h1, .notes h2 ").clone(true,true).appendTo( "nav" );
+    $(".notes h1 ").click(function() {
+       let Nav_Title = $(this).text();
+       let SelectedTag =$(".notes h1:contains("+Nav_Title+")");
+       $('html, body').animate({
+          scrollTop: ( SelectedTag.offset().top)
+       },500);
     })
-/*	
     // left navigation continues shown 
-  	$(document).on( 'scroll', function(){
-    	if( self.pageYOffset+document.body.clientHeight  > $('.notes nav').height()  ){
-    		$('.notes nav').css({'position':'fixed', 'bottom':'0'});
-    	}else{
-    		$('.notes nav').css({'position':'absolute', 'bottom':'unset'});
-    	}
-	});
-*/
-
+   $(document).on( 'scroll', function(){
+       if( self.pageYOffset+document.body.clientHeight  > $('nav').height()  ){
+          $('nav').css({'position':'fixed', 'bottom':'0'});
+       }else{
+    	   $('nav').css({'position':'absolute', 'bottom':'unset'});
+       }
+   });
 });
 </script>
