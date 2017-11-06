@@ -1,5 +1,8 @@
 
 /*******  Navigation Bar *********/
+body{
+   background-color: blanchedalmond;
+}
 .notes{
    max-width:unset;
 }
