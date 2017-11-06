@@ -11,6 +11,36 @@
 }
 
 /******  Home Page *********/
+#ContactMe div{
+   width: 50%;
+   display: inline-block;
+}
+#ContactMe form input,
+#ContactMe form textarea{
+   width:96%;
+   padding:12px 1%;
+   margin:5px 1%;
+   font-size: 15px;
+}
+#ContactMe form textarea{
+   height: 300px;
+}
+#ContactMe form input[type=submit]{
+   padding: 10px;
+   background-color:#ffd645;
+   border: 0;
+   width: 200px;
+   display: block;
+   margin: 20px auto;
+}
+#ContactMe #Phone{
+   width: 49%;
+   display: inline-block;
+   vertical-align: top;
+   position: relative;
+   top: 100px;
+   text-align: center;
+}
 #GitGoogle{
    background: linear-gradient(70deg, #e5edf9 50%, #385d97 50%);
    height:400px;
@@ -39,7 +69,6 @@
     color: #e5edf9;
 }
 
-#ContactForm
 
 
 
