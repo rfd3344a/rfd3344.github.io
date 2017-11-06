@@ -19,13 +19,12 @@
     font-size: 20px;
     border: 0;
 }
-.notes nav:before{
+.notes div{
     width: 0;
     height: 0;
     border-style: solid;
     border-color: transparent;
     border-width: 20px;
-    content: "";
     border-right-color: orange;
     position: fixed;
 	top: 50%;
