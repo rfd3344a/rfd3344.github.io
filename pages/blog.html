@@ -6,7 +6,7 @@ layout: default
 <section id="BlogPage">
   {% for post in site.posts %}
     <article class="post">
-
+      <img href="{{ post.image }}"  />
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
