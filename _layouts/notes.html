@@ -28,7 +28,10 @@ $(document).ready(function(){
     	$('html, body').animate({
     		scrollTop: ( SelectedTag.offset().top)
 		},500);
-    })
+     });
+     $(".notes nav div").click(function() {
+	  $(".notes nav").css({'display':'none'});
+     });
     // left navigation continues shown 
 /***
   	$(document).on( 'scroll', function(){
