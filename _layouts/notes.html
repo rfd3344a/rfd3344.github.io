@@ -22,9 +22,10 @@ $(document).ready(function(){
   	// click go to target title 
     $(".notes .content h1, .notes .content h2 ").clone(true,true).appendTo( ".notes nav" );
     $(".notes nav h1").click(function() {
-	console.log(SelectedTag.offset());
+	
     	let Nav_Title = $(this).text();
     	let SelectedTag =$(".notes.content h1:contains("+Nav_Title+")");
+	    console.log(SelectedTag.offset());
     	$('html, body').animate({
     		scrollTop: ( SelectedTag.offset().top)
 		},500);
