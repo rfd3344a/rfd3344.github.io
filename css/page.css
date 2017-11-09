@@ -69,6 +69,14 @@
     color: #e5edf9;
 }
 
+/*******  Post Page ******/
+#BlogPage article {
+   width:31.333%;
+   padding:10px 0.5%;
+   margin:5px 0.5%;
+    
+}
+
 
 
 
