@@ -12,9 +12,10 @@ body{
    display: block;	
    margin-top: 10px;
    margin-left: 10px;
-   width:200px;
+   width:280px;
 }
 .notes nav h1{
+    font-family: sans-serif;
     text-align: left;
     font-size: 25px;
 }
