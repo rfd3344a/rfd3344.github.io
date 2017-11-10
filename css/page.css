@@ -45,13 +45,10 @@
     background: transparent !important;
 }
 #ContactMe #Phone p{
-       
-}
-
-
-
-      
-    
+    position: absolute;
+    top: 150px;
+    right: 0;
+    left: 0;
 }
 
 
