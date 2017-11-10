@@ -41,6 +41,20 @@
    top: 100px;
    text-align: center;
 }
+#ContactMe #Phone{
+    background: transparent !important;
+}
+#ContactMe #Phone p{
+       
+}
+
+
+
+      
+    
+}
+
+
 #GitGoogle{
    background: linear-gradient(70deg, #e5edf9 50%, #385d97 50%);
    height:400px;
