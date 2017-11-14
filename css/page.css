@@ -92,8 +92,10 @@
 }
 #BlogPage article img{
     width: 40%;
+    margin-right:10px;
     border-radius: 10px;
     float:left;
+   
 }
 
 
