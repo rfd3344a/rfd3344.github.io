@@ -4,6 +4,8 @@ title: Post Instruction
 image: https://rfd3344.github.io/images/Eeveelution.png
 ---
 
+Contents: 
+
 ```
 layout: post
 title: Post Instruction  
