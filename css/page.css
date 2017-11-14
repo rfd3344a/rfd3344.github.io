@@ -90,9 +90,6 @@
     font-size: 25px;
     display: block;
 }
-#BlogPage article h1{
-    border-bottom-right-radius: 0;
-}
 #BlogPage article img{
     width: 40%;
     border-radius: 10px;
