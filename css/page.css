@@ -91,13 +91,12 @@
     display: block;
 }
 #BlogPage article h1{
-    margin: 10px;
     border-bottom-right-radius: 0;
 }
 #BlogPage article img{
-    width: 100%;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
+    width: 40%;
+    border-radius: 10px;
+    float:left;
 }
 
 
