@@ -12,17 +12,18 @@
 
 /******************  Home Page *************************/
 #ContactMe div{
-   width: 50%;
+   width: 60%;
    display: inline-block;
 }
 #ContactMe form input,
 #ContactMe form textarea{
-   width:96%;
+   width:47%;
    padding:12px 1%;
    margin:5px 1%;
    font-size: 15px;
 }
 #ContactMe form textarea{
+   width:98%;
    height: 300px;
 }
 #ContactMe form input[type=submit]{
@@ -34,7 +35,7 @@
    margin: 20px auto;
 }
 #ContactMe #Phone{
-   width: 49%;
+   width: 39%;
    display: inline-block;
    vertical-align: top;
    position: relative;
