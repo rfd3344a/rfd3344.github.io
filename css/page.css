@@ -10,7 +10,7 @@
    background:#fcc43a;
 }
 
-/******  Home Page *********/
+/******************  Home Page *************************/
 #ContactMe div{
    width: 50%;
    display: inline-block;
@@ -44,13 +44,6 @@
 #ContactMe #Phone{
     background: transparent !important;
 }
-#ContactMe #Phone p{
-    position: absolute;
-    top: 150px;
-    right: 0;
-    left: 0;
-}
-
 
 #GitGoogle{
    background: linear-gradient(70deg, #e5edf9 50%, #385d97 50%);
@@ -80,13 +73,12 @@
     color: #e5edf9;
 }
 
-/*******  Post Page ******/
-#BlogPage article {
+/**********************  Post Page *********************/
+#BlogPage article{
    width:31.333%;
    padding:10px 0.5%;
    margin:5px 0.5%;
    float:left;
-   
 }
 
 #BlogPage img{
