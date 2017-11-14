@@ -81,6 +81,8 @@
    float:left;
    display: block;
    height: 400px;
+   background: skyblue;
+   border-radius: 10px;
 }
 #BlogPage article h1 a{
     white-space: nowrap;
