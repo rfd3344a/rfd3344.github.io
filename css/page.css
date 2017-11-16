@@ -82,14 +82,38 @@
    float:left;
    display: block;
    height: 400px;
-   background: skyblue;
+   background: random(0, 666500);
    border-radius: 10px;
 }
+#BlogPage article:nth-child(6n+1){
+   background: #7473ce; 
+}   
+#BlogPage article:nth-child(6n+2){
+   background: #ce7373; 
+}   
+#BlogPage article:nth-child(6n+3){
+   background: #73cea8; 
+}   
+#BlogPage article:nth-child(6n+4){
+   background: #81629e; 
+}   
+#BlogPage article:nth-child(6n+5){
+   background: #bdde6e; 
+}   
+#BlogPage article:nth-child(6n+6){
+   background:  #e8b66a;
+}   
+
+
+
+
 #BlogPage article h1 a{
     white-space: nowrap;
     text-align: center;
     font-size: 25px;
     display: block;
+    background: unset;
+    color: #283344;
 }
 #BlogPage article img{
     margin-right: 10px;
