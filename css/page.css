@@ -103,7 +103,7 @@
 #BlogPage article:nth-child(6n+6){
    background:  #e8b66a;
 }
-#BlogPage article h1 a{
+#BlogPage article h1{
     white-space: nowrap;
     text-align: center;
     font-size: 25px;
