@@ -38,3 +38,17 @@ section{
    background:#fcc43a;
 }
 
+
+/******  Footer ****/
+footer:before{
+     content:"footer";
+     background:#755e1e;
+     height:200px;
+     margin:auto;
+     line-height:100px;
+}	
+	
+
+
+
+
