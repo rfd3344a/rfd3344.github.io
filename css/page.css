@@ -111,6 +111,10 @@
     background: unset;
     color: #283344;
 }
+#BlogPage article .contents{
+    height: 325px;
+    overflow: hidden;
+}
 #BlogPage article img{
     margin-right: 10px;
     float: left;
