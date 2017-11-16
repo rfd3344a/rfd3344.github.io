@@ -40,6 +40,9 @@ section{
 
 
 /******  Footer ****/
+footer{
+    clear:both;
+}
 footer:before{
     content: "footer";
     background: #a27d12;
@@ -50,6 +53,7 @@ footer:before{
     display: block;
     text-align: center;
     font-size: 37px;
+
 }	
 	
 
