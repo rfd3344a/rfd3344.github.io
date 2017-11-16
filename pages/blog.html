@@ -6,7 +6,7 @@ layout: page
 <section id="BlogPage">
   {% for post in site.posts %}
     <article class="post">
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h1>{{ post.title }}</h1>
       <div class="contents">
         <img src="{{ post.image }}"  />
         {{ post.excerpt }}
