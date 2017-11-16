@@ -76,13 +76,13 @@
 
 /**********************  Post Page *********************/
 #BlogPage article{
+   position:relative; 
    width:31.333%;
    padding:10px 0.5%;
    margin:5px 0.5%;
    float:left;
    display: block;
    height: 400px;
-   background: random(0, 666500);
    border-radius: 10px;
 }
 #BlogPage article:nth-child(6n+1){
@@ -99,14 +99,10 @@
 }   
 #BlogPage article:nth-child(6n+5){
    background: #bdde6e; 
-}   
+}
 #BlogPage article:nth-child(6n+6){
    background:  #e8b66a;
-}   
-
-
-
-
+}
 #BlogPage article h1 a{
     white-space: nowrap;
     text-align: center;
@@ -125,7 +121,16 @@
     width: 100px;
     height: 100px;
 }
-
+#BlogPage article a{
+    position: absolute;
+    bottom: 5px;
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
 
 
 
