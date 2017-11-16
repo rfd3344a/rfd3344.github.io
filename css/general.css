@@ -41,11 +41,15 @@ section{
 
 /******  Footer ****/
 footer:before{
-     content:"footer";
-     background:#755e1e;
-     height:200px;
-     margin:auto;
-     line-height:100px;
+    content: "footer";
+    background: #a27d12;
+    height: 200px;
+    margin: auto;
+    line-height: 100px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 37px;
 }	
 	
 
