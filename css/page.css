@@ -110,6 +110,7 @@
     display: block;
     background: unset;
     color: #283344;
+    margin:0;
 }
 #BlogPage article .contents{
     height: 325px;
