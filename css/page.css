@@ -126,6 +126,12 @@
     width: 100px;
     height: 100px;
 }
+#BlogPage article img{
+    width: 150px;
+    height: 150px;
+    border-radius: 0;
+    transition: all 0.8s ease;   
+}
 #BlogPage article a{
     position: absolute;
     bottom: 5px;
