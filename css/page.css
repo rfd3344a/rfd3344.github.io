@@ -126,7 +126,7 @@
     width: 100px;
     height: 100px;
 }
-#BlogPage article img{
+#BlogPage article:hover img{
     width: 150px;
     height: 150px;
     border-radius: 0;
