@@ -1,0 +1,211 @@
+---
+layout: page
+published: true
+---
+
+
+<style type="text/css">
+#ColorTable{
+   overflow: auto;
+   counter-reset: section;
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+}
+#ColorTable div{
+	width: 100px;
+	height: 100px;
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+	box-sizing: border-box;
+	border: 2px solid black;
+	display: inline-block;
+	position: relative;
+}
+#ColorTable div:before {
+  	counter-increment: section;               
+  	content: counter(section) '.Wht';    
+	color: white;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 10px;
+}
+#ColorTable div:after {
+	content: counter(section) '.Blk';  
+	color: black;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 10px;
+}
+#ColorTable div:active:after {
+	content: '';
+	background: inherit;
+   height: 500px;
+   width: 500px;
+   position: fixed;
+   margin: auto;
+  	left: 0;
+  	right: 0;
+  	top: 10%;	
+  	z-index: 1;
+  	transition: all 0.8s ease;
+}
+</style>
+
+<section id="ColorTable">
+		<div style="background: AliceBlue
+"></div><div style="background:	AntiqueWhite
+"></div><div style="background: 	Aqua
+"></div><div style="background:	Aquamarine
+"></div><div style="background: 	Azure
+"></div><div style="background:	Beige
+"></div><div style="background: 	Bisque
+"></div><div style="background:	Black
+"></div><div style="background: 	BlanchedAlmond
+"></div><div style="background:	Blue
+"></div><div style="background: 	BlueViolet
+"></div><div style="background:	Brown
+"></div><div style="background: 	BurlyWood
+"></div><div style="background:	CadetBlue
+"></div><div style="background: 	Chartreuse
+"></div><div style="background:	Chocolate
+"></div><div style="background:	Coral
+"></div><div style="background: 	CornflowerBlue
+"></div><div style="background:	Cornsilk
+"></div><div style="background: 	Crimson
+"></div><div style="background:	Cyan
+"></div><div style="background: 	DarkBlue
+"></div><div style="background:	DarkCyan
+"></div><div style="background: 	DarkGoldenRod
+"></div><div style="background:	DarkGray
+"></div><div style="background: 	DarkGrey
+"></div><div style="background:	DarkGreen
+"></div><div style="background:	DarkKhaki
+"></div><div style="background: 	DarkMagenta
+"></div><div style="background:	DarkOliveGreen
+"></div><div style="background: 	DarkOrange
+"></div><div style="background:	DarkOrchid
+"></div><div style="background: 	DarkRed
+"></div><div style="background:	DarkSalmon
+"></div><div style="background: 	DarkSeaGreen
+"></div><div style="background:	DarkSlateBlue
+"></div><div style="background: 	DarkSlateGray
+"></div><div style="background:	DarkSlateGrey
+"></div><div style="background:	DarkTurquoise
+"></div><div style="background: 	DarkViolet
+"></div><div style="background:	DeepPink
+"></div><div style="background: 	DeepSkyBlue
+"></div><div style="background:	DimGray
+"></div><div style="background: 	DimGrey
+"></div><div style="background:	DodgerBlue
+"></div><div style="background: 	FireBrick
+"></div><div style="background:	FloralWhite
+"></div><div style="background: 	ForestGreen
+"></div><div style="background:	Fuchsia
+"></div><div style="background:	Gainsboro
+"></div><div style="background: 	GhostWhite
+"></div><div style="background:	Gold
+"></div><div style="background: 	GoldenRod
+"></div><div style="background:	Gray
+"></div><div style="background: 	Grey
+"></div><div style="background:	Green
+"></div><div style="background: 	GreenYellow
+"></div><div style="background:	HoneyDew
+"></div><div style="background: 	HotPink
+"></div><div style="background:	IndianRed
+"></div><div style="background:	Indigo
+"></div><div style="background: 	Ivory
+"></div><div style="background:	Khaki
+"></div><div style="background: 	Lavender
+"></div><div style="background:	LavenderBlush
+"></div><div style="background: 	LawnGreen
+"></div><div style="background:	LemonChiffon
+"></div><div style="background: 	LightBlue
+"></div><div style="background:	LightCoral
+"></div><div style="background: 	LightCyan
+"></div><div style="background:	LightGoldenRodYellow
+"></div><div style="background:	LightGray
+"></div><div style="background: 	LightGrey
+"></div><div style="background:	LightGreen
+"></div><div style="background: 	LightPink
+"></div><div style="background:	LightSalmon
+"></div><div style="background: 	LightSeaGreen
+"></div><div style="background:	LightSkyBlue
+"></div><div style="background: 	LightSlateGray
+"></div><div style="background:	LightSlateGrey
+"></div><div style="background: 	LightSteelBlue
+"></div><div style="background:	LightYellow
+"></div><div style="background:	Lime
+"></div><div style="background: 	LimeGreen
+"></div><div style="background:	Linen
+"></div><div style="background: 	Magenta
+"></div><div style="background:	Maroon
+"></div><div style="background: 	MediumAquaMarine
+"></div><div style="background:	MediumBlue
+"></div><div style="background: 	MediumOrchid
+"></div><div style="background:	MediumPurple
+"></div><div style="background: 	MediumSeaGreen
+"></div><div style="background:	MediumSlateBlue
+"></div><div style="background:	MediumSpringGreen
+"></div><div style="background: 	MediumTurquoise
+"></div><div style="background:	MediumVioletRed
+"></div><div style="background: 	MidnightBlue
+"></div><div style="background:	MintCream
+"></div><div style="background: 	MistyRose
+"></div><div style="background:	Moccasin
+"></div><div style="background: 	NavajoWhite
+"></div><div style="background:	Navy
+"></div><div style="background: 	OldLace
+"></div><div style="background:	Olive
+"></div><div style="background:	OliveDrab
+"></div><div style="background: 	Orange
+"></div><div style="background:	OrangeRed
+"></div><div style="background: 	Orchid
+"></div><div style="background:	PaleGoldenRod
+"></div><div style="background: 	PaleGreen
+"></div><div style="background:	PaleTurquoise
+"></div><div style="background: 	PaleVioletRed
+"></div><div style="background:	PapayaWhip
+"></div><div style="background: 	PeachPuff
+"></div><div style="background:	Peru
+"></div><div style="background:	Pink
+"></div><div style="background: 	Plum
+"></div><div style="background:	PowderBlue
+"></div><div style="background: 	Purple
+"></div><div style="background:	RebeccaPurple
+"></div><div style="background: 	Red
+"></div><div style="background:	RosyBrown
+"></div><div style="background: 	RoyalBlue
+"></div><div style="background:	SaddleBrown
+"></div><div style="background: 	Salmon
+"></div><div style="background:	SandyBrown
+"></div><div style="background:	SeaGreen
+"></div><div style="background: 	SeaShell
+"></div><div style="background:	Sienna
+"></div><div style="background: 	Silver
+"></div><div style="background:	SkyBlue
+"></div><div style="background: 	SlateBlue
+"></div><div style="background:	SlateGray
+"></div><div style="background: 	SlateGrey
+"></div><div style="background:	Snow
+"></div><div style="background: 	SpringGreen
+"></div><div style="background:	SteelBlue
+"></div><div style="background:	Tan
+"></div><div style="background: 	Teal
+"></div><div style="background:	Thistle
+"></div><div style="background: 	Tomato
+"></div><div style="background:	Turquoise
+"></div><div style="background: 	Violet
+"></div><div style="background:	Wheat
+"></div><div style="background: 	White
+"></div><div style="background:	WhiteSmoke
+"></div><div style="background: 	Yellow
+"></div><div style="background:	YellowGreen
+"></div>
+</section >
+
+
+
