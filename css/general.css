@@ -42,21 +42,7 @@ section{
 /******  Footer ****/
 footer{
     clear:both;
-}
-footer:before{
-    content: "footer";
     background: #a27d12;
     height: 200px;
     margin: auto;
-    line-height: 100px;
-    width: 100%;
-    display: block;
-    text-align: center;
-    font-size: 37px;
-
-}	
-	
-
-
-
-
+}
