@@ -42,7 +42,8 @@ section{
 /******  Footer ****/
 footer{
     clear:both;
-    background: #f0f0f0;
+    background: #193a52;
+  	color: white;
     height: 200px;
     margin: auto;
     padding-top: 30px;
