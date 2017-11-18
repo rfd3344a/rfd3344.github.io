@@ -299,10 +299,15 @@ echo abcdef;    // BBBBBBBBB
 ```
 # Laravel 
 ## Command
+### artisan
+Show all Routes:
+php artisan route:list
 
 
-
-
-
+<style>
+  h1{
+    background:red;
+    }
+  </style>
 
 
