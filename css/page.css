@@ -1,16 +1,46 @@
-#main a{
+
+
+/******************  Home Page *************************/
+
+#GitGoogle{
+   background: linear-gradient(70deg, #e5edf9 50%, #385d97 50%);
+   height:400px;
+   padding-top: 50px;
+   max-width:unset;
+}
+#GitGoogle div{
+   display: block;
+   width: 50%;
+   float: left;
+   height: 100%;
+   text-align: center;
+   
+}
+#GitGoogle div:before{
+   font-family: fontawesome;
+   display: block;
+   font-size: 100px;
+}
+#GitGoogle div:nth-of-type(1):before{
+    content:'\f2b3';
+    color: #385d97;
+}
+#GitGoogle div:nth-of-type(2):before{
+    content: '\f092';
+    color: #e5edf9;
+}
+#GitGoogle a{
     text-decoration: none;
     font-family: 'Sniglet', cursive;
     background: #ffd645;
     padding: 8px 14px;
     border-radius: 4px;
 }
-#main a:hover{
+#GitGoogle a:hover{
    transition:all 0.8s ease;
    background:#fcc43a;
 }
 
-/******************  Home Page *************************/
 #ContactMe div{
    width: 60%;
    display: inline-block;
@@ -44,34 +74,6 @@
 }
 #ContactMe #Phone{
     background: transparent !important;
-}
-
-#GitGoogle{
-   background: linear-gradient(70deg, #e5edf9 50%, #385d97 50%);
-   height:400px;
-   padding-top: 50px;
-   max-width:unset;
-}
-#GitGoogle div{
-   display: block;
-   width: 50%;
-   float: left;
-   height: 100%;
-   text-align: center;
-   
-}
-#GitGoogle div:before{
-   font-family: fontawesome;
-   display: block;
-   font-size: 100px;
-}
-#GitGoogle div:nth-of-type(1):before{
-    content:'\f2b3';
-    color: #385d97;
-}
-#GitGoogle div:nth-of-type(2):before{
-    content: '\f092';
-    color: #e5edf9;
 }
 
 /**********************  Post Page *********************/
@@ -142,9 +144,3 @@
     left: 0;
     right: 0;
 }
-
-
-
-
-
-
