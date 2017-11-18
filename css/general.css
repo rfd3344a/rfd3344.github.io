@@ -45,4 +45,11 @@ footer{
     background: #f0f0f0;
     height: 200px;
     margin: auto;
+    padding-top: 30px;
+}
+footer ul li{
+	list-style: none;
+}
+footer ul li{
+ 	text-decoration: none;
 }
