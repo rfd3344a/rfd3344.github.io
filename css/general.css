@@ -48,6 +48,9 @@ footer{
     margin: auto;
     padding-top: 30px;
 }
+footer #Footer_left{
+	width:45%;
+}
 footer ul li{
 	list-style: none;
   	line-height:30px;
@@ -55,6 +58,6 @@ footer ul li{
 footer ul li a{
  	text-decoration: none;
 }
-footer ul li:hover a{
+footer ul li a:hover{
     text-decoration: underline;
 }
