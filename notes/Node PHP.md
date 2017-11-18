@@ -1,5 +1,6 @@
 ---
 layout: notes
+published: true
 ---
 
 # Node.js
@@ -296,64 +297,8 @@ echo ABCDEF;    	// BBBBBBBBB
 define("ABCDEF ", " BBBBBBBBB ", true);  // 大小写不敏感
 echo abcdef;    // BBBBBBBBB
 ```
-
-# Flasky
-Initial
-source venv/bin/activate 
-
-pip install flask 
-pip install flask-script 
-pip install flask-bootstrap 
-pip install flask-moment 
-                 http://momentjs.com/docs/#/displaying/ 
-pip install flask-wtf 
-pip install flask-sqlalchemy 
-pip install flask-migrate 
-pip install flask-mail
-pip install flask-login 
-
-pip freeze >requirements.txt        // generate the required files	
-pip install -r requirements.txt     //  install  requirements
-
-# Python
-   单行注释
-render_template传递全部变量
-	return render_template('index.html', **locals())
-URL:  统一资源定位符		
-## Decorator
-Foo = hello(foo)     等同于：
-
-
-for num in range(10,20)    #  from 10 to 20
-## If 
-if num == 3:            # 判断num的值
-    print ( "boss")
-else:
-    print 'roadman'
-
-## File process
-f = open(file_name,"a")
-f = write ()
-## import argparse
-	Parser = argparse.ArgumentParser()
-Parser = add_argument('name', help = 'that is the help sentence')
-	
-## import re
-re.match(' think ', line, re.M|re.I )
-re.search()
-
-
-## From threading import Thread
-Import timer
-thread.join()      #  wait the thread done
-
-#数据结构
-
-
-
-
-
-
+# Laravel 
+## Command
 
 
 
