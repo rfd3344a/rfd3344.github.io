@@ -50,7 +50,11 @@ footer{
 }
 footer ul li{
 	list-style: none;
+  	line-height:30px;
 }
 footer ul li a{
  	text-decoration: none;
+}
+footer ul li:hover a{
+    text-decoration: underline;
 }
