@@ -1,13 +1,14 @@
 ---
 layout: notes
-
+published: true
 ---
 
 # CSS Base
 ```
 <link rel="stylesheet" type="test/css" href="./templates/CSS.css">
 ```
-## Selector
+## Selector1
+
 ### CSS_Selector
 ```
 #red {color: red;}		ID 
@@ -469,8 +470,3 @@ $( "iframe" ).contents().find("body").addClass("IframeClass");
 	});
 });
 ```
-
-
-
-
-
