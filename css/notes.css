@@ -8,7 +8,13 @@ body{
   
 }
 .notes nav{
-   position: absolute;
+   position: fixed;
+   z-index: 10;
+   top: 61px;
+   left: 0;
+   bottom: 0;
+   overflow-x: hidden;
+   overflow-y: auto; 
    display: block;	
    margin-top: 10px;
    margin-left: 10px;
