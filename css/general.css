@@ -49,7 +49,7 @@ footer{
     margin: auto;
     padding-top: 30px;
 }
-footer #FooterBlock{
+footer .FooterBlock{
 	width:45%;
   	display:inline-block;
 }
