@@ -298,7 +298,7 @@ npm run dev
 npm run watch
 ### artisan
 1. Show all Routes:
-	- php artisan route:list
+	php artisan route:list
 
 ### Session 
 file - 将 Session 保存在 storage/framework/sessions 中
@@ -312,6 +312,12 @@ database - Session 保存在关系型数据库中
 memcached / redis - Sessions 保存在其中一个快速且基于缓存的存储系统中
 
 array - Sessions 保存在 PHP 数组中，不会被持久化
+
+
+
+
+
+
 
 
 
