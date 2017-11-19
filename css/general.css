@@ -38,27 +38,3 @@ section{
    background:#fcc43a;
 }
 
-
-/******  Footer ****/
-footer{
-    clear:both;
-    background: #193a52;
-  	color: white;
-    height: 200px;
-    margin: auto;
-    padding-top: 30px;
-}
-footer #FooterBlock{
-	width:45%;
-  	display:inline-block;
-}
-footer ul li{
-	list-style: none;
-  	line-height:30px;
-}
-footer ul li a{
- 	text-decoration: none;
-}
-footer ul li a:hover{
-    text-decoration: underline;
-}
