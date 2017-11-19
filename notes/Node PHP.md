@@ -303,6 +303,7 @@ if(in_array('administrator', $current_user->roles )){
 1. Show all Routes:
 php artisan route:list
 
+## Controller
 
 ## Session 
 file - 将 Session 保存在 storage/framework/sessions 中
