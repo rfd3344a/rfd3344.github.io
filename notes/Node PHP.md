@@ -249,22 +249,18 @@ echo abcdef;    // BBBBBBBBB
 # WordPress 
 ###### pprint_r function 显示Object中全部内容
 ```
-function pprint_r($arrs, $die = false) {
+function Show($arrs) {
 	$bt = debug_backtrace();
 	$caller = array_shift($bt);
-	echo '<pre style="padding:25px;clear:both;">';
-	echo '<h3 style="font-weight:bold;">*Debugging Code* Line:'.$caller['line'].' in '.$caller['file'].': by jinhui.</h3>';
+	echo '<pre>';
+	echo '<h3>' .$caller['file']  .'</h3>';
+	echo '<h3>Line:'.$caller['line'] .'</h3>';
 	if(!empty($arrs)) {
-		print_r($arrs);
+		var_dump($arrs);
 	} else {
-		echo 'Oooooops, It\'s Empty ...';
+		echo 'It is Empty ...';
 	}
 	echo '</pre>';
-	
-	if($die) {
-		die();
-		exit();
-	}
 }
 ```
 ```
