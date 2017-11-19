@@ -154,54 +154,7 @@ if( urlExists('http://www.baidu.com/') )
 echo "exist";
 else echo 'no';
 ```
-# WordPress 
-###### pprint_r function 显示Object中全部内容
-```
-function pprint_r($arrs, $die = false) {
-	$bt = debug_backtrace();
-	$caller = array_shift($bt);
-	echo '<pre style="padding:25px;clear:both;">';
-	echo '<h3 style="font-weight:bold;">*Debugging Code* Line:'.$caller['line'].' in '.$caller['file'].': by jinhui.</h3>';
-	if(!empty($arrs)) {
-		print_r($arrs);
-	} else {
-		echo 'Oooooops, It\'s Empty ...';
-	}
-	echo '</pre>';
-	
-	if($die) {
-		die();
-		exit();
-	}
-}
-```
-```
-pprint_r($post);  
-$meta = get_post_meta($post->ID, '',true);
-```
 
-### wp_mail  邮件
-```
-$to = "rfd3344@gmail.com";
-$subject = "One Order is completed";
-$content = "<h1>asdda</h1>";
-$headers = array('Content-Type: text/html; charset=UTF-8');
-$status = wp_mail($to, $subject, $content, $headers );
-```
-
-
-### 判断是不是 'administrator'
-```
-global $current_user;
-if(in_array('administrator', $current_user->roles )){	
-    echo 'administrator';
-}
-``` 
-
-### Home Page
-```
-<?php echo get_home_url(); ?>  
-```
 # OOP – Object Oriented Programming
 ```
 class phpClass{
@@ -291,7 +244,58 @@ echo ABCDEF;    	// BBBBBBBBB
 define("ABCDEF ", " BBBBBBBBB ", true);  // 大小写不敏感
 echo abcdef;    // BBBBBBBBB
 ```
-# Laravel 
+
+
+# WordPress 
+###### pprint_r function 显示Object中全部内容
+```
+function pprint_r($arrs, $die = false) {
+	$bt = debug_backtrace();
+	$caller = array_shift($bt);
+	echo '<pre style="padding:25px;clear:both;">';
+	echo '<h3 style="font-weight:bold;">*Debugging Code* Line:'.$caller['line'].' in '.$caller['file'].': by jinhui.</h3>';
+	if(!empty($arrs)) {
+		print_r($arrs);
+	} else {
+		echo 'Oooooops, It\'s Empty ...';
+	}
+	echo '</pre>';
+	
+	if($die) {
+		die();
+		exit();
+	}
+}
+```
+```
+pprint_r($post);  
+$meta = get_post_meta($post->ID, '',true);
+```
+
+### wp_mail  邮件
+```
+$to = "rfd3344@gmail.com";
+$subject = "One Order is completed";
+$content = "<h1>asdda</h1>";
+$headers = array('Content-Type: text/html; charset=UTF-8');
+$status = wp_mail($to, $subject, $content, $headers );
+```
+
+
+### 判断是不是 'administrator'
+```
+global $current_user;
+if(in_array('administrator', $current_user->roles )){	
+    echo 'administrator';
+}
+``` 
+
+### Home Page
+```
+<?php echo get_home_url(); ?>  
+```
+
+# Laravel
 ## Command
  npm run dev  
  npm run watch
