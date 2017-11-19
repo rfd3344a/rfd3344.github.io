@@ -23,10 +23,10 @@ body{
 .notes nav h1{
     font-family: sans-serif;
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
 }
 .notes nav h2{
-   margin-left: 20px;
+    margin-left: 20px;
     font-size: 20px;
     border: 0;
 }
