@@ -271,7 +271,6 @@ $obj2->printHello(); // 输出 Public、Protected2 和 Undefined
 Data()
 date("Y-m-d");
 
-
 ## Include, Require 
 ##### Include:  Warning错误发生后继续执行，及时包含文件丢失
     include 'header.php';
@@ -303,9 +302,7 @@ php artisan route:list
 ### Session 
 file - 将 Session 保存在 storage/framework/sessions 中
 
-
 cookie - Session 保存在安全加密的 Cookie 中
-
 
 database - Session 保存在关系型数据库中
 
