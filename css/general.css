@@ -52,6 +52,7 @@ footer{
 footer .FooterBlock{
 	width:45%;
   	display:inline-block;
+    vertical-align: top;
 }
 footer ul li{
 	list-style: none;
