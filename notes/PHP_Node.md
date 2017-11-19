@@ -320,8 +320,13 @@ array - Sessions 保存在 PHP 数组中，不会被持久化
 ## Request 
 use Illuminate\Http\Request;
 
+1. 获取当前路由
+$uri = $request->path();
+$uri = $request->url();
+$uri = $request->fullUrl();
 
 
+$request->is('admin/*')
 
 
 
