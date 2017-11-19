@@ -294,11 +294,11 @@ echo abcdef;    // BBBBBBBBB
 ```
 # Laravel 
 ## Command
-npm run dev  
-npm run watch
+ npm run dev  
+ npm run watch
 ### artisan
 1. Show all Routes:
-	php artisan route:list
+php artisan route:list
 
 ### Session 
 file - 将 Session 保存在 storage/framework/sessions 中
