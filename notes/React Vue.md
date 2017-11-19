@@ -66,7 +66,6 @@ function TodoItem() {
 1. 所有component 都有render
 
 
-
 ```
 var HelloMessage = React.createClass({
   render: function() {
