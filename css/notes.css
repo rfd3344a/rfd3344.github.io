@@ -36,10 +36,10 @@ body{
     border-style: solid;
     border-color: transparent;
     border-width: 20px;
-    border-right-color: orange;
+    border-right-color: #de979b;
     position: fixed;
     top: 50%;
-    left: 260px;
+    left: 248px;
 }
 .notes .content{
 	width: 80%;
