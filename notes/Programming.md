@@ -32,6 +32,67 @@ extends
 5. 异步非阻塞: 点餐 - 买水 - 点餐叫号(回调)
 
 
+# OOP – Object Oriented Programming
+```
+class phpClass{
+  var $var1;
+  var $var2 = "constant string";
+  function myfunc ($arg1, $arg2){
+  }
+}
+```
+## construct    构造函数
+###### 初始化函数
+```
+function __construct( $par1, $par2 ) {
+   $this->url = $par1;
+   $this->title = $par2;
+}
+```
+## destruct析构函数
+###### 对象结束其生命周期时（例如对象所在的函数已调用完毕
+```
+function __destruct() {
+print "销毁 " . $this->name . "\n";
+}
+```
+## Extends  继承 
+
+## Public, Protected, Privite 访问权限
+```
+class MyClass
+{   public $public = 'Public';
+    protected $protected = 'Protected';
+    private $private = 'Private';
+    function printHello()
+    {   echo $this->public;
+        echo $this->protected;
+        echo $this->private;
+    }
+}
+$obj = new MyClass();
+echo $obj->public; // 这行能被正常执行
+echo $obj->protected; // 这行会产生一个致命错误
+echo $obj->private; // 这行也会产生一个致命错误
+$obj->printHello(); // 输出 Public、Protected 和 Private
+
+/*******    Define MyClass2     ******/
+class MyClass2 extends MyClass
+{ 
+// 可以对 public 和 protected 进行重定义，但 private 而不能
+    protected $protected = 'Protected2';
+    function printHello()
+    {   echo $this->public;
+        echo $this->protected;
+        echo $this->private;
+    }
+}
+$obj2 = new MyClass2();
+echo $obj2->public; // 这行能被正常执行
+echo $obj2->private; // 未定义 private
+echo $obj2->protected; // 这行会产生一个致命错误
+$obj2->printHello(); // 输出 Public、Protected2 和 Undefined
+```
 # MVC模式 – Model, View, Controller
 <img src="../zPhoto/MVC_mode.png" height="300px" />
 三者相互独立
