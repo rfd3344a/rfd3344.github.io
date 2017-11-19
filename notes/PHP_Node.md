@@ -268,8 +268,22 @@ $method = $request->method();  // GET
 
 if ($request->has('name')) {}  //name 是否存在
 
-
 $request->is('admin/*')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
