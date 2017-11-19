@@ -1,10 +1,12 @@
 ---
 layout: notes
+published: true
 ---
 
 <img src= "../zPhoto/Frontend_Diagram.png" />
 
-#React
+# React
+
 ```
 <script src="https://fb.me/react-15.1.0.js"></script>
 <script src="https://fb.me/react-dom-15.1.0.js"></script>
