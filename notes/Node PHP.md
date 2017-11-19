@@ -3,10 +3,6 @@ layout: notes
 published: true
 ---
 
-# Node.js
-回调函数     异步传输
-
-
 # PHP 
 ## Variable 变量
 ###### var_dump()  //返回    数据类型  和值
@@ -15,7 +11,6 @@ $x = 5985;
 var_dump($x);   // int(5985) 
 echo PHP_EOL;     //   \n  换行符号
 ```
-
 
 ### local
 ### global 
@@ -312,8 +307,6 @@ file - 将 Session 保存在 storage/framework/sessions 中
 cookie - Session 保存在安全加密的 Cookie 中
 
 
-
-
 database - Session 保存在关系型数据库中
 
 memcached / redis - Sessions 保存在其中一个快速且基于缓存的存储系统中
@@ -323,17 +316,8 @@ array - Sessions 保存在 PHP 数组中，不会被持久化
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+# Node.js
+回调函数     异步传输
 
 
 
