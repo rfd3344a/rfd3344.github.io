@@ -48,8 +48,9 @@ footer{
     margin: auto;
     padding-top: 30px;
 }
-footer #Footer_left{
+footer #FooterBlock{
 	width:45%;
+  	display:inline-block;
 }
 footer ul li{
 	list-style: none;
