@@ -101,6 +101,11 @@ __NAMESPACE__
 $cars=array("AAA","BBB","CCC");
 echo count($cars);    //  3
 ```
+
+### array_values
+显示array中第一个值
+array_values($array)[0]
+
 ## 关联数组   => 
 ```
 $age=array("Peter"=>"35","Ben"=>"37","Joe"=>"43");
