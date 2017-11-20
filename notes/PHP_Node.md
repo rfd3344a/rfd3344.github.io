@@ -264,6 +264,8 @@ use Illuminate\Http\Request;
 $uri = $request->path();
 $uri = $request->url();
 $uri = $request->fullUrl();
+$input = $request->all();     
+
 $method = $request->method();  // GET
 
 
