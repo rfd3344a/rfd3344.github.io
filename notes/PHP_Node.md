@@ -252,20 +252,14 @@ php artisan route:list
 4.  memcached / redis - Sessions 保存在其中一个快速且基于缓存的存储系统中
 5.  array - Sessions 保存在 PHP 数组中，不会被持久化
 
-
-
 ## Request 
 use Illuminate\Http\Request;
 
 1. 获取当前路由
-
 	1 $uri = $request->path();
-
 	2 $uri = $request->url();
-    
 	3 $uri = $request->fullUrl();
 	4 $input = $request->all();     
-
 $method = $request->method();  // GET
 
 
