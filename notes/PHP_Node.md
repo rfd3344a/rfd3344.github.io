@@ -245,6 +245,36 @@ php artisan route:list
 
 ## Controller
 
+
+
+## Request 
+use Illuminate\Http\Request;
+
+显示全部数据
+$RequestData = $request->all();  
+
+1. 获取当前路由
+$uri = $request->path();
+$uri = $request->url();
+$uri = $request->fullUrl();
+
+
+### Others
+$method = $request->method();  // GET
+
+
+
+
+
+
+
+
+
+
+
+if ($request->has('name')) {}  //name 是否存在
+
+
 ## Session 
 1. file - 将 Session 保存在 storage/framework/sessions 中
 2. cookie - Session 保存在安全加密的 Cookie 中
@@ -252,31 +282,11 @@ php artisan route:list
 4.  memcached / redis - Sessions 保存在其中一个快速且基于缓存的存储系统中
 5.  array - Sessions 保存在 PHP 数组中，不会被持久化
 
-
-
+显示全部数据
 $data = $request->session()->all();
 
-
-
-
-## Request 
-use Illuminate\Http\Request;
-
-1. 获取当前路由
-	1 $uri = $request->path();
-	2 $uri = $request->url();
-	3 $uri = $request->fullUrl();
-	4 $input = $request->all();     
-$method = $request->method();  // GET
-
-
-if ($request->has('name')) {}  //name 是否存在
-
-
-
-
-
-
+保存数据
+$request->session()->put('key', '1111');
 
 
 
