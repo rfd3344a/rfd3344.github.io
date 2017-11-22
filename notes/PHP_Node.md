@@ -256,6 +256,7 @@ php artisan route:list
 
 $data = $request->session()->all();
 
+ session(['httpcode' => $httpcode]);   // put到session
 
 
 
