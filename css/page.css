@@ -133,6 +133,10 @@
     border-radius: 0;
     transition: all 0.8s ease;   
 }
+#BlogPage article p {
+    word-wrap: break-word;
+ 	 
+}
 #BlogPage article a{
     position: absolute;
     bottom: 5px;
