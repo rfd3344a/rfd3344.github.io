@@ -1,3 +1,8 @@
+---
+layout: notes
+
+---
+
 # Title 
 ##  Short Key 
 cmd+C： 拷贝
