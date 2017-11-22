@@ -253,10 +253,9 @@ php artisan route:list
 5.  array - Sessions 保存在 PHP 数组中，不会被持久化
 
 
-
 $data = $request->session()->all();
-
-
+//  到写入到session
+session(['httpcode' => $httpcode]);   
 
 
 ## Request 
