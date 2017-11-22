@@ -54,6 +54,35 @@ echo "SCRIPT_NAME: \n". $_SERVER['SCRIPT_NAME'];
 ### COOKIE
 ### SESSION
 
+### Curl 
+```
+$hashed = sha1('password');
+	$post = [
+'userID' => 'harry.li@dataquest.com.au',
+'password' => $hashed,
+];
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_URL,"https://sandbox.service.process.v2.safe2pay.com.au/v1.0/login");
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+curl_setopt($ch, CURLOPT_HEADER, true); 
+// execute!
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+$server_output = curl_exec ($ch);
+$httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+
+curl_close ($ch);
+
+// further processing ....
+
+echo 'HTTP code: ' . $httpcode;
+if ($httpcode == '200') {
+    
+}
+```
+
+
 ## PHP预定义常量
 ### LINE
 ```    
