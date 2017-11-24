@@ -471,4 +471,54 @@ $( "iframe" ).contents().find("body").addClass("IframeClass");
 });
 ```
 
-22222
+
+#  Sass 
+## Variables
+```
+$primary-color: #333;
+```
+## Nesting
+```
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
+```
+## Mixins
+```
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.box { @include border-radius(10px); }
+```
+## Extend
+```
+.message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+.success {
+  @extend .message;
+  border-color: green;
+}
+```
+## Operators
+```
+width: 300px / 960px * 100%;
+```
+
+
+
+
+
+
+
+
