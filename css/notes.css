@@ -17,9 +17,8 @@ body{
    overflow-y: auto; 
    display: block;	
    margin-top: 10px;
-   margin-left: calc(50vw - 500px);
+   margin-left: calc(50vw - 520px);
    width:280px;
-   border-right: 1px solid gray;
 }
 
 
@@ -43,9 +42,10 @@ body{
 .notes .content{
     width: 80%;
     max-width: 800px;
-    margin-left: calc(50vw - 221px);
+    margin-left: calc(50vw - 241px);
     padding-left: 10px;
     padding-bottom: 100px;
+    border-left: 1px solid gray;
 }
 .notes .content,
 .notes nav{
