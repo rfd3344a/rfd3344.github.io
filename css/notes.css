@@ -17,8 +17,9 @@ body{
    overflow-y: auto; 
    display: block;	
    margin-top: 10px;
-   margin-left: 10px;
+   margin-left: calc(50vw - 569px);
    width:280px;
+   border-right: 1px solid gray;
 }
 .notes nav h1{
     font-family: sans-serif;
@@ -30,21 +31,15 @@ body{
     font-size: 18px;
     border: 0;
 }
-.notes nav div{
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-color: transparent;
-    border-width: 20px;
-    border-right-color: #de979b;
-    position: fixed;
+.notes nav div i{
+    position: absolute;
     top: 36%;
-    left: 248px;
+    right: 0;
 }
 .notes .content{
-	width: 80%;
+    width: 80%;
     max-width: 800px;
-    margin-left: 288px;
+    margin-left: calc(50vw - 290px);
     border-left: 1px solid gray;
     padding-left: 10px;
     padding-bottom: 100px;
