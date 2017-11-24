@@ -21,11 +21,7 @@ body{
    width:280px;
    border-right: 1px solid gray;
 }
-@media screen and (min-width: 1000px) {
-    .notes nav {
-        display:none;
-    }
-}
+
 
 .notes nav h1{
     font-family: sans-serif;
@@ -66,6 +62,17 @@ body{
 	counter-increment: H_Two;
   	content:counter(H_One) '.' counter(H_Two) ' ';
 }
+
+@media screen and (min-width: 1000px) {
+    .notes nav {
+        display:none;
+    }
+    .notes .content{
+        margin:auto;
+    }
+}
+
+
 
 
 
@@ -214,10 +221,6 @@ table tr th :last-child, table tr td :last-child {
 }
 
 /*********** Others **************/
-
-
-
-
 
 * {
 	-webkit-print-color-adjust: exact;
