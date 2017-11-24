@@ -70,6 +70,7 @@ body{
     }
     .notes .content{
         margin:auto;
+	border:0;
     }
 }
 
