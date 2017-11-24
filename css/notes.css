@@ -63,7 +63,8 @@ body{
   	content:counter(H_One) '.' counter(H_Two) ' ';
 }
 
-@media screen and (min-width: 1000px) {
+
+@media screen and (max-width: 1000px) {
     .notes nav {
         display:none;
     }
